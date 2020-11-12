@@ -9,6 +9,8 @@
  - 声卡: Realtek ALC662
  - 网卡: 2片 RTL8111 千兆网卡.
  - 无线网卡/蓝牙: DW1862A (自行购买)
+ - [点击这里购买主机](https://item.taobao.com/item.htm?id=616481040591)
+
 
 ## 二、安装方法
 

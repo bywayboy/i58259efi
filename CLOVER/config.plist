@@ -200,9 +200,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
+		<string>VBoxHfs</string>
 		<string>AppleKeyAggregator</string>
 		<string>AppleImageCodec</string>
-		<string>VBoxHfs</string>
 	</array>
 	<key>Graphics</key>
 	<dict>
@@ -276,9 +276,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x067</string>
 		<key>MLB</key>
-		<string>C07825404J9KXPG8C</string>
+		<string>C070293014NKXPGCB</string>
 		<key>ROM</key>
-		<data>pybNwHBx</data>
+		<data>Qnbumvm3</data>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
@@ -309,13 +309,13 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C07825404J9KXPG8C</string>
+		<string>C070293014NKXPGCB</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SmUUID</key>
-		<string>6E13C321-880D-448C-882F-6FE6B3C07071</string>
+		<string>2A22EBEC-135B-4BAA-980C-D6C32A9AF9B7</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
@@ -328,7 +328,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>SerialNumber</key>
-		<string>C07WW4Z3JYVX</string>
+		<string>C07D30JPJYVX</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -341,7 +341,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>CustomUUID</key>
-		<string>B515B614-2C7C-4272-85EF-6E9C31E54F32</string>
+		<string>DFE4C042-BAA0-4834-B49A-F3CAB4DA386B</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>

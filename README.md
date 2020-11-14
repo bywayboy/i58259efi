@@ -58,7 +58,7 @@ Advanced
 Chipset
   - USB Cnfiguration
     - XHCI Compliance Mde   [Enabled]
-    - xDCI Support          [Disabled]
+    - xDCI Support          [Enabled]
 ```
 
 
@@ -84,7 +84,14 @@ GRUB> setup_var 0xA15 0x02
 1. U盘引导系统，进行安装.
 2. 祝君好运
 
+### 黑苹果ACPI 调试方法
+```shell
+## 查看ACPI是否存在错误的命令:
+log show --last boot | grep -Ei "ACPI"
 
+## 检查唤醒原因命令:
+log show -last boot | grep -Ei "Wake Reason"
+```
 ### 
 
 

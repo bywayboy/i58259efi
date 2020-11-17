@@ -9,7 +9,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 		<key>AutoMerge</key>
@@ -39,6 +39,16 @@
 					<false/>
 					<key>Comment</key>
 					<string>GPRW to XPRW</string>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>R0ZYMA==</data>
+					<key>Replace</key>
+					<data>SUdQVQ==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
 				</dict>
 			</array>
 			<key>Fixes</key>
@@ -200,9 +210,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>VBoxHfs</string>
-		<string>AppleKeyAggregator</string>
 		<string>AppleImageCodec</string>
+		<string>AppleKeyAggregator</string>
+		<string>VBoxHfs</string>
 	</array>
 	<key>Graphics</key>
 	<dict>
@@ -276,9 +286,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x067</string>
 		<key>MLB</key>
-		<string>C070293014NKXPGCB</string>
+		<string>C07816501QXKXPGUE</string>
 		<key>ROM</key>
-		<data>Qnbumvm3</data>
+		<data>MHy1NQpS</data>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
@@ -309,13 +319,13 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C070293014NKXPGCB</string>
+		<string>C07816501QXKXPGUE</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SmUUID</key>
-		<string>2A22EBEC-135B-4BAA-980C-D6C32A9AF9B7</string>
+		<string>CF08918D-A9FC-43B0-8830-0D2D88350A52</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
@@ -328,7 +338,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>SerialNumber</key>
-		<string>C07D30JPJYVX</string>
+		<string>C07WL08XJYVX</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -341,7 +351,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>CustomUUID</key>
-		<string>DFE4C042-BAA0-4834-B49A-F3CAB4DA386B</string>
+		<string>B515B614-2C7C-4272-85EF-6E9C31E54F32</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>

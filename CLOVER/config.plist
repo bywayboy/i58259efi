@@ -210,9 +210,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>AppleImageCodec</string>
 		<string>AppleKeyAggregator</string>
 		<string>VBoxHfs</string>
+		<string>AppleImageCodec</string>
 	</array>
 	<key>Graphics</key>
 	<dict>
@@ -235,49 +235,12 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>KernelToPatch</key>
-		<array>
-			<dict>
-				<key>Find</key>
-				<data>ILniAAAADzA=</data>
-				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
-				<key>Disabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>igKEwHRE</data>
-				<key>Replace</key>
-				<data>igKEwOtE</data>
-				<key>Disabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-			</dict>
-			<dict>
-				<key>Find</key>
-				<data>igKEwHRC</data>
-				<key>Replace</key>
-				<data>igKEwOtC</data>
-				<key>Disabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-			</dict>
-		</array>
 		<key>KernelPm</key>
 		<false/>
-		<key>AppleRTC</key>
-		<true/>
 		<key>#FakeCPUID</key>
 		<string>0x0506e3</string>
+		<key>AppleRTC</key>
+		<true/>
 		<key>#Kaby Lake-Comment</key>
 		<string>Kaby Lake CPU supportable by using CPUID from Skylake</string>
 	</dict>
@@ -286,9 +249,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x067</string>
 		<key>MLB</key>
-		<string>C07816501QXKXPGUE</string>
+		<string>C07919802J9KXPG1H</string>
 		<key>ROM</key>
-		<data>MHy1NQpS</data>
+		<data>vZw4/Mt3</data>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 	</dict>
@@ -319,13 +282,13 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C07816501QXKXPGUE</string>
+		<string>C07919802J9KXPG1H</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SmUUID</key>
-		<string>CF08918D-A9FC-43B0-8830-0D2D88350A52</string>
+		<string>32B8DBA1-8C7B-4304-A4E7-868C75FCCB77</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
@@ -338,7 +301,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>SerialNumber</key>
-		<string>C07WL08XJYVX</string>
+		<string>C07YPZYDJYVX</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -351,7 +314,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>CustomUUID</key>
-		<string>B515B614-2C7C-4272-85EF-6E9C31E54F32</string>
+		<string>764924D1-E859-4872-B771-117AE62F2FBA</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>

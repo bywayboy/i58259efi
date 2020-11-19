@@ -59,10 +59,6 @@
 			<key>DropOEM_DSM</key>
 			<false/>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT-DDA.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -210,9 +206,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>AppleKeyAggregator</string>
 		<string>VBoxHfs</string>
 		<string>AppleImageCodec</string>
+		<string>AppleKeyAggregator</string>
 	</array>
 	<key>Graphics</key>
 	<dict>

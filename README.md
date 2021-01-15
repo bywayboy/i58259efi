@@ -108,6 +108,30 @@ log show -last boot | grep -Ei "Wake Reason"
 ```
 ### 
 
+## 关闭内核日志输出
+
+虽然目前工作正常了, 但内核一直会打印如下内容, 原因目前还未找到.
+```
+2020-11-24 02:20:19.998376+0800 0xa933     Default     0x0                  0      0    kernel: (AppleIntelCFLGraphicsFramebuffer) MEI: /Library/Caches/com.apple.xbs/Sources/GPUDriversIntel/GPUDriversIntel-14.7.8/IONDRV/CFL/AppleIntelFramebuffer/MEDriver/AppleIntelMEIDriver.cpp:839 Assertion failed: 0  FWSTS1=90000255 FWSTS2=86110106 H_CSR=80000009 CSE_CSR=80000009 D0I3C=10 DriverState=2 LinkState=3 PgiState=0
+```
+可以使用下面但方法关闭日志打印:
+```shell
+sudo mount -rw /
+nano /etc/asl.conf
+```
+修改内容
+```
+? [= Sender kernel] file system.log
+```
+为:
+```
+? [= Sender kernel] [<= Level error] file system.log
+```
+
+## 笔记
+
+change XDCI._STA to XDCI.XSTA  补丁和睡眠无法唤醒有关.
+
 
 ## 四、更新日志:
  - 2020-11-18 基本摆脱对Clover配置的依赖, 精简不必要的驱动.
